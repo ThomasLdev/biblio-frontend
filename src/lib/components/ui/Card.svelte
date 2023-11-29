@@ -11,7 +11,9 @@
     <div class="card-body">
         <h2 class="card-title truncate">Books title</h2>
         <div class="card-actions">
-            <MainButton label="See more" />
+            <a href="/books/{data.id}" class="btn btn-primary">
+                See details
+            </a>
         </div>
     </div>
 </div>
